@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/horizontalsystems/BitcoinCore.Swift.git", .upToNextMajor(from: "3.0.0")),
+        .package(url: "https://github.com/DmitriyMikitenko/BitcoinCore.Swift.git", branch: "dextrade"),
     ],
     targets: [
         .target(
